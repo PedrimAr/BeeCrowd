@@ -1,0 +1,4 @@
+# -*- coding: utf-8 -*-
+
+seg = int(input())
+print(f'{int(seg / 3600)}:{int((seg % 3600) / 60)}:{int((seg % 3600) % 60)}')
